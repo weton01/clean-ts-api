@@ -5,6 +5,8 @@
     },
     "rules": {
         "@typescript-eslint/strict-boolean-expressions": 0,
-        "no-unreachable-loop": 0
+        "no-unreachable-loop": 0,
+        "@typescript-eslint/no-misused-promises": 0
+
     }
 }
