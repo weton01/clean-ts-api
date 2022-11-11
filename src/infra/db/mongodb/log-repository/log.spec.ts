@@ -2,6 +2,10 @@ import { Collection } from 'mongodb'
 import { MongoHelper } from '../helpers/mongo-helper'
 import { LogMongoRepository } from './log'
 
+const makeSut = (): LogMongoRepository => {
+  return new LogMongoRepository()
+}
+
 describe('', () => {
   let errorColleciton: Collection
 
@@ -19,7 +23,7 @@ describe('', () => {
   })
 
   test('should ', async () => {
-    const sut = new LogMongoRepository()
+    const sut = makeSut()
     await sut.logError('any_email')
     const count = await errorColleciton.countDocuments()
     expect(count).toBe(1)
