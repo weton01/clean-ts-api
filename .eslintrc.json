@@ -6,7 +6,9 @@
     "rules": {
         "@typescript-eslint/strict-boolean-expressions": 0,
         "no-unreachable-loop": 0,
-        "@typescript-eslint/no-misused-promises": 0
+        "@typescript-eslint/no-misused-promises": 0,
+        "indent": "off",
+        "@typescript-eslint/indent": 0
 
     }
 }
