@@ -8,7 +8,7 @@
         "no-unreachable-loop": 0,
         "@typescript-eslint/no-misused-promises": 0,
         "indent": "off",
-        "@typescript-eslint/indent": 0
-
+        "@typescript-eslint/indent": 0,
+        "@typescript-eslint/method-signature-style": 0
     }
 }
