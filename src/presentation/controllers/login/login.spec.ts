@@ -6,7 +6,7 @@ import {
   serverError,
   unauthorized
 } from '../../helpers/http/http-helper'
-import { Validation } from '../../helpers/validators/validation'
+import { Validation } from '../../protocols/validation'
 import { HttpRequest } from '../signup/signup-protocols'
 import { LoginController } from './login'
 
