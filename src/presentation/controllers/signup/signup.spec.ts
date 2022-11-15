@@ -7,7 +7,7 @@ import {
   AccountModel,
   HttpRequest
 } from './signup-protocols'
-import { ok, serverError, badRequest } from '../../helpers/http-helper'
+import { ok, serverError, badRequest } from '../../helpers/http/http-helper'
 import { Validation } from '../../helpers/validators/validation'
 
 interface SutTypes {
