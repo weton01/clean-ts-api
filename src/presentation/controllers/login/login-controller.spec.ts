@@ -10,8 +10,8 @@ import {
   unauthorized
 } from '../../helpers/http/http-helper'
 import { Validation } from '../../protocols/validation'
-import { HttpRequest } from '../signup/signup-protocols'
-import { LoginController } from './login'
+import { HttpRequest } from '../signup/signup-controller-protocols'
+import { LoginController } from './login-controller'
 
 const makeValidation = (): Validation => {
   class ValidationStub implements Validation {
