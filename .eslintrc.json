@@ -1,14 +1,14 @@
 {
-    "extends": "standard-with-typescript",
-    "parserOptions": {
-        "project": "./tsconfig.json"
-    },
-    "rules": {
-        "@typescript-eslint/strict-boolean-expressions": 0,
-        "no-unreachable-loop": 0,
-        "@typescript-eslint/no-misused-promises": 0,
-        "indent": "off",
-        "@typescript-eslint/indent": 0,
-        "@typescript-eslint/method-signature-style": 0
-    }
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json"
+  },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": 0,
+    "no-unreachable-loop": 0,
+    "@typescript-eslint/no-misused-promises": 0,
+    "indent": "off",
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/method-signature-style": 0
+  }
 }
