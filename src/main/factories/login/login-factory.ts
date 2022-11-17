@@ -1,4 +1,3 @@
-import { env } from 'process'
 import { DbAuthentication } from '../../../data/usecases/authentication/db-authentication'
 import { BcryptAdapter } from '../../../infra/criptografy/bcrypt-adapter/bcrypt-adapter'
 import { JwtAdapter } from '../../../infra/criptografy/jwt-adapter/jwt-adapter'
@@ -8,6 +7,7 @@ import { LoginController } from '../../../presentation/controllers/login/login-c
 import { Controller } from '../../../presentation/protocols'
 import { LogControllerDecorator } from '../../decorators/log-controller-decorator'
 import { makeLoginValidation } from './login-validation-factory'
+import env from '../../config/env'
 
 export const makeLoginController = (): Controller => {
   const salt = 12
