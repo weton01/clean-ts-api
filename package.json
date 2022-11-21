@@ -4,8 +4,9 @@
   "description": "NodeJs Rest API using TDD, Clean Architecture and typescript",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/main/server.js",
+    "start": "tsc-watch --onSuccess \"node .\"",
     "build": "rimraf dist && tsc",
+    "debug": "node -- inspect=0.0.0.0:9222 --nolazy dist/main.server.js",
     "up": "npm run build && docker-compose up -d",
     "stop": "docker-compose down",
     "test": "jest --passWithNoTests   --runInBand -—no-cache",
