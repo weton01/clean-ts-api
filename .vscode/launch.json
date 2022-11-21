@@ -7,8 +7,7 @@
       "name": "Docker: Attach to Node",
       "remoteRoot": "/usr/src/clean-node-api",
       "port": 9222,
-      "restart": true,
-      "timeout": 10000
+      "restart": true
     }
   ]
 }
